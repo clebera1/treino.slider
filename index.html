@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/media.css">
+    <title>Book+</title>
+</head>
+<body>
+    <header>
+        <div id="title">
+            <h1>LOGO</h1>
+        </div>
+    <nav>
+        <ul>
+            <a href="#"><li>Inicio</li></a>
+            <a href="#"><li>Serviços</li></a>
+            <a href="#"><li>Sobre</li></a>
+            <a href="#"><li>Contatos</li></a>
+            <a href="#" id="inscreva-se-btn"><li>Ja tem uma conta?</li><a>
+        </ul>
+    </nav>
+    </header>
+
+    <main>
+        <aside>
+            <h2><span>Inscreva-se agora</h2></span>
+            <h2>e aproveite!</h2>
+                <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, et nemo eaque eius reprehenderit facilis ullam vero quibusdam, qui pariatur suscipit. Molestias quos culpa maiores quidem consequuntur sapiente odio rem.
+                </p>
+
+            <form method="post">
+                <input type="text" placeholder="Nome">
+                <input type="email" placeholder="E-mail">
+                <input type="submit" value ="Enviar">
+            </form>
+        </aside>
+
+        <article>
+            <div class ="container">
+
+                <input type="radio" name="images" id="i1" checked>
+                <input type="radio" name="images" id="i2">
+                <input type="radio" name="images" id="i3">
+                
+
+                <div class ="slideimg" id ="one">
+                    <img src="./styles/images/livro_maisesperto.jpg" alt="livros">
+
+                        <label for="i3" class="pre"></label>
+                        <label for="i2" class="next"></label>
+                </div>
+
+                <div class ="slideimg" id ="two">
+                    <img src="./styles/images/livro_milionario.jpg" alt="livros">
+
+                        <label for="i1" class="pre"></label>
+                        <label for="i3" class="next"></label>
+                </div>
+
+                <div class ="slideimg" id ="three">
+                    <img src="./styles/images/livro_mindset.jpg" alt="livros">
+
+                        <label for="i2" class="pre"></label>
+                        <label for="i1" class="next"></label>
+                </div>
+
+                <div class="nav">
+                    <label class="dots" id="dot1" for="i1"></label>
+                    <label class="dots" id="dot2" for="i2"></label>
+                    <label class="dots" id="dot3" for="i3"></label>
+                </div>
+            </div>
+        </article>
+    </section>
+</body>
+</html>

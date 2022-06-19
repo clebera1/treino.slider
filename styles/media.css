@@ -1,0 +1,39 @@
+@media(max-width:760px){
+
+    header{
+        flex-direction: column;
+    }
+
+
+    main{
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+        margin-top: -20px;
+    }
+    
+    h2{
+        font-size: 50px;
+        text-align: center;
+    }
+
+    form{
+        margin: 0;
+        width: 100%;
+    }
+
+
+    input{
+        align-self: center;
+    }
+
+    ul{
+        text-align: center;
+    }
+
+    .container{
+        display: block;
+        width: 80%;
+        left: -12px;
+    }
+}
